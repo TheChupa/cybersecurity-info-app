@@ -1,4 +1,4 @@
-const WhyKeepSafe = () =>{
+const ScamCard = () =>{
 
 
     return(
@@ -16,4 +16,4 @@ const WhyKeepSafe = () =>{
     )
 }
 
-export default WhyKeepSafe
+export default ScamCard

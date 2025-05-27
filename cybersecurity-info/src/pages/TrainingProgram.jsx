@@ -10,8 +10,11 @@ if(!scam) {
 }
 
 return (
+<div>
+<h1>{scam.scamType}</h1>
 
-<h1>Test is working</h1>
+
+</div>
 )
 }
 

@@ -1,14 +1,21 @@
 import { useState } from "react";
 import { scamdata } from "../component/dataforproject";
-import { handleSubmit } from "../component/utility";
+import { useNavigate } from "react-router-dom";
 
 const CyberTraining = () => {
 const [selectedProgram, setSelectedProgram] = useState("");
+const navigate = useNavigate();
 const scams = Object.keys(scamdata);
 const handleChange = (event) => {
     setSelectedProgram(event.target.value);
   };
-   
+ const handleSubmit = (e) => {
+    e.preventDefault();
+    if (selectedProgram) {
+      navigate(`/Training-Room/${selectedProgram}`);
+    }
+  };   
+
 
 
 const scamsList = scams.map((scam,index) => {
@@ -29,10 +36,12 @@ const scamsList = scams.map((scam,index) => {
 <option value="">Please choose a module</option>
 {scamsList}
 </select>
+
+
+<button type="submit"> Run {selectedProgram}</button>
 </form>
 
-<h3>You have chosen:</h3>
-<button>{selectedProgram}</button>
+
 
 </div>
 

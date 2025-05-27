@@ -21,6 +21,7 @@ function App() {
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/Training-Room" element={<CyberTraining />}/>
         <Route path="/Training-Room/:programName" element={<TrainingProgram/>}/>
+        </Routes>
       <Footer />
     </>
   );
