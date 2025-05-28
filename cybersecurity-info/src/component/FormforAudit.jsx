@@ -46,6 +46,7 @@ function ForAuditForm() {
   };
 
   return (
+    <main>
     <div>
       <div style={{ textAlign: "center", marginTop: "20px" }} hidden={hideForm}>
         <h1>Cybersecurity Audit</h1>
@@ -191,6 +192,7 @@ function ForAuditForm() {
         Where did this come from?
       </button>
     </div>
+    </main>
   );
 }
 

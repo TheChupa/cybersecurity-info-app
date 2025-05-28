@@ -25,6 +25,7 @@ const TrainingProgram = () => {
   }
 
   return (
+    <main>
     <div className="scamtype">
       <span hidden={clickCount !== 1}>
         <ScamInfoBox scamKey="Type of Scam:" writeUp={scam.scamType} />
@@ -97,6 +98,7 @@ const TrainingProgram = () => {
         <ReUsableButton path="/Training-Room" name="Take me Back to the Dojo" />
       </span>
     </div>
+    </main>
   );
 };
 

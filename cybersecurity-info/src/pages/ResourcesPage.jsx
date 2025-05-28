@@ -9,8 +9,14 @@ const ResourcesPage = () =>{
 
 
     return (
-<main>
-    <p>This is where the Resources Button/link will come. Put the video property and the information list here?</p>
+<main className="resources-page">
+
+  
+  <div className="title-resources">Title</div>
+  <div className="wiki-resources">Wiki Leaks</div>
+  <div className="serious-resources">Serious Stuff</div>
+
+
 </main>
     )
 }

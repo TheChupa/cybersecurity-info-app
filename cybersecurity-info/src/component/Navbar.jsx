@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <Navbar expand="sm" className="bg-body-tertiary" >
+    <Navbar sticky="top" data-bs-theme="" bg="myColorNavBar" expand="sm" className="bg-body-tertiary" >
       <Container>
         <Navbar.Brand as={Link} to="/" >Cyber Audit</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -13,9 +13,6 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">
               Home
-            </Nav.Link>
-            <Nav.Link as={Link} to="/Audit">
-              <span>CyberSecurity Audit</span>
             </Nav.Link>
             <Nav.Link as={Link} to="/resources/AllResources">
               Resources

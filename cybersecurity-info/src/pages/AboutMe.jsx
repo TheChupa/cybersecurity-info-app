@@ -22,11 +22,15 @@ const [formData, setFormData] = useState({
   };
 
   return (
-    <div>
+    <main className="about-me">
+     
+     <div className="text-about-me">
       <h1>Hello!</h1>
       <h3>Help me find things to make life better. Contact me if you have ideas.</h3>
-      <br /><br /><br /><br /><br />
+    </div>     
 
+
+<div className="form-about-me">
       <form onSubmit={handleSubmit}>
         <label>
           Your Message:
@@ -56,14 +60,12 @@ const [formData, setFormData] = useState({
 
         <button type="submit">Submit</button>
       </form>
-    
-<br/>
-<br/>
-<br/>
+    </div>
 
-       
+
+      
         
-        <p>I enjoy the internet very much, but we have to keep it in check. Education is our best weapon for this. <br/><br/>
+        <p className="closer-about-me">I enjoy the internet very much, but we have to keep it in check. Education is our best weapon for this. <br/><br/>
         Don't let you or your loved ones become a victim of ignorance. 
          </p>
 
@@ -71,7 +73,7 @@ const [formData, setFormData] = useState({
 
 
         
-   </div>     
+   </main>     
     )
 }
 export default AboutMe
