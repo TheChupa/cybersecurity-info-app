@@ -2,9 +2,9 @@ export const scamdata = {
   fakeTextProgram: {
     scamType: "Fake Text or phishing scam",
     dataPoints:
-      "Phone Numbers, Family Info, Job Info, Home Address, Zipcode, Phone Data, IP data",
+      "Phone Numbers, Family Info, Job Info, Home Address, Zipcode, Phone Data, IP data are all data points collected for this kind of scam.",
     breachType:
-      "Social Media, Forumn Breaches, Loan Info, Advertising consent, Free App registration, Website Registration, Other people were breached, Bank Records, Medical Records, Car Insurance..We use phones everywhere.",
+      "Social Media, Forumn Breaches, Loan Info, Advertising consent partners, Free App registration, Website Registration, Other people were breached, Bank Records, Medical Records, Car Insurance..We use phones everywhere.",
     mainTargets:
       "Usually this type of attack is done over thousands of numbers, but it could be combined with other data points to create a more targeted attack. Anyone remember being bombarded with toll road texts after a recent travel?",
     howToDefend:
@@ -82,7 +82,8 @@ export const scamdata = {
       "Extortion scams are simple. The scammer will use common sense against their victim",
     kindOfCurious:
       "The scammer is smart and will convince their victim to send them payment as fast as possible to get this over with.",
-    wayTooManyDetails:
+   moreDetailsOne: "",
+      wayTooManyDetails:
       "This is the scam that happens to many elderly people. AI is adding to the deceptiveness with voice, photo, and social media data to create custom fakery for this purpose.",
     theRealDarkness:
       "AI is very scary. What we know is fake, could be very real to someone else.",
@@ -101,7 +102,8 @@ export const scamdata = {
       "This scam happens every day. As the CFPB has resrouces gutted from protecting the public, these scams will proliferate in our day-day in the U.S. instead of being something that happens in a place far away..",
     kindOfCurious:
       "It already happens to citizens around the globe every day. Buying stuff that doesn't exist.",
-    wayTooManyDetails: "It's here already.",
+    moreDetailsOne:"",
+      wayTooManyDetails: "It's here already.",
     theRealDarkness: "Bruh.",
   },
 
@@ -117,7 +119,9 @@ export const scamdata = {
       "Be careful of the content you view. Websites save an inordinate amount of data on their users that can be used to influence you in various ways.",
     kindOfCurious:
       "The track how long you you look, when you look, and sometimes even where you look.",
-    wayTooManyDetails:
+   
+   moreDetailsOne:"",
+      wayTooManyDetails:
       "This data is for sale is so many ways. Think of all the social media you use and then go check out their stock price. How are they making money?",
     theRealDarkness: "It's dark.",
   },
