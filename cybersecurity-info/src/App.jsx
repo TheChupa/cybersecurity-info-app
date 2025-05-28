@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import ResourcesPage from "./pages/ResourcesPage.jsx";
 import "./App.css";
@@ -13,6 +13,8 @@ import TrainingProgram from "./pages/TrainingProgram.jsx";
 function App() {
   return (
     <>
+      
+      <BrowserRouter>
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -23,6 +25,7 @@ function App() {
         <Route path="/Training-Room/:programName" element={<TrainingProgram/>}/>
         </Routes>
       <Footer />
+      </BrowserRouter>
     </>
   );
 }
