@@ -1,8 +1,6 @@
-
 const HomePage = () => {
   return (
     <>
-    
       <body>
         <p>
           When's the last time you checked your online identity?

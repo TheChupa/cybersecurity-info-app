@@ -7,9 +7,7 @@ function Footer() {
   return (
     <Navbar fixed="bottom" expand="sm" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand>
-          &copy;ChurchCreations
-        </Navbar.Brand>
+        <Navbar.Brand>&copy;ChurchCreations</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
