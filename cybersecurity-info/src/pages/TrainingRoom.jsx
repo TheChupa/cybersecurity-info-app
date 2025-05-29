@@ -27,7 +27,8 @@ const scamsList = scams.map((scam,index) => {
 
 
     return(
-<div>
+        <main className= "training-room">
+<div className="dropdown">
     <h1>Welcome to the Dojo</h1>
 <form onSubmit={handleSubmit}>
 
@@ -43,8 +44,11 @@ const scamsList = scams.map((scam,index) => {
 
 
 
-</div>
 
+</div>
+<img className="training-gif" src="/trainingdropdown.gif" alt="neo learning"></img>
+
+</main>
     )
 };
 

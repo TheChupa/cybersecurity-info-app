@@ -1,8 +1,10 @@
 const ScamInfoBox = ({ scamKey, writeUp }) => {
   return (
-    <main>
+    <main className= "scam-info">
     <div className="info-card">
-      <h3>{scamKey}</h3>
+      <h4>{scamKey}</h4>
+      <br/>
+      <br/>
       <h6>{writeUp}</h6>
     </div>
     </main>

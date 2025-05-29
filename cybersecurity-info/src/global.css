@@ -1,5 +1,26 @@
 /* global.css */
+main {
+    border-image: url("../public/homebackground.jpg");
+    background-origin: content-box;
+	color: #333;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 35px;
+	cursor: default;
+	box-sizing: border-box;
+}
 
+@media screen and (min-width: 925px) {
+	main {
+        font-size: 1.7rem ;
+    }
+}
 
+@media screen and (max-width: 450px) {
+	main {
+        font: size 0.9em;
+        padding: 20px
 
+    }
+}
 

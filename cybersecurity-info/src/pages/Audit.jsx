@@ -7,9 +7,11 @@ const AuditForm = () => {
 
   return (
     <>
+    <main className= "audit">
       <div>
         <ForAuditForm />
       </div>
+      </main>
     </>
   );
 };

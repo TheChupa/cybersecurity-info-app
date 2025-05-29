@@ -19,9 +19,10 @@
 
 /*HomePage*/
 
-.home-page {
-  display: grid;
-  grid-template-columns: 20px 1fr 2.4fr 1fr 20px;
+.homepage {
+
+ display: grid;
+ grid-template-columns: 20px 1fr 2.4fr 1fr 20px;
   grid-template-rows: 80px 0.2fr 1.8fr 80px 2.2fr 0.3fr 80px;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -34,6 +35,7 @@
     ". . lead-to-buttons-homepage . ."
     ". blue-button-homepage . red-button-homepage ."
     ". . . . .";
+
 }
 
 .red-button-homepage {
@@ -82,18 +84,23 @@
 }
 
 .homepage-blink {
-  text-align: center;
-  margin-top: 20%;
-  font-size: 24px;
+
+  font-size: 30px;
   color: green;
   animation: blink 1.5s infinite;
+}
+
+.table-blink{
+  color:red;
+  animation: blink 2.0s infinite;
 }
 
 /* About Me Page */
 
 .about-me {
+  
   display: grid;
-  grid-template-columns: 15% 50% 15%;
+  grid-template-columns: 1% 50% 1%;
   grid-template-rows: 15% 70 15%;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -102,7 +109,8 @@
     ". text-about-me ."
     ". form-about-me ."
     ". closer-about-me .";
-    background-color: #2d7842;
+  background-color:  lightblue;
+  background-size: contain;
   
 }
 
@@ -114,7 +122,7 @@
 
 .form-about-me {
   grid-area: form-about-me;
- 
+ border: outset black;
  
 }
 
@@ -123,8 +131,9 @@
 }
 
 .dog-photo {
-  width: 310px;
-  height: 310px;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
 }
 
 /* Resources page */
@@ -210,14 +219,15 @@
 
 .scam-1 {
   grid-area: scam-1;
-  border: 10px outset #2d7842;
-  border: 10px outset #2d7842;
-  background-color: #000;   
+  border: 15px outset #2d7842;
+  
+  background-color: white;
   color: #fff;              
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 }
 
 .button-box { 
@@ -227,10 +237,26 @@
   align-items: flex;       
   justify-content: top; 
   text-align: center;
-  align-self: flex-start
+  align-self: flex-start;
+  background-color: yellow;
+  justify-self: center;
 }
 
 
+
+.training-room{
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  
+}
+.dropdown {
+border: 20px outset green;
+padding: 15px;
+}
+.info-card{
+  font-size: xx-small ;
+}
 
 .dojo{
 background-image: url(../dojobackground.jpg);
@@ -248,3 +274,6 @@ background-size: contain;
 
 }
 
+.center-button {
+  justify-content: center
+}

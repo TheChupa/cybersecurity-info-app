@@ -97,6 +97,9 @@ const TrainingProgram = () => {
       <span hidden={clickCount <= 10}>
         <ReUsableButton className="button-box" path="/Training-Room" name="Take me Back to the Dojo" />
       </span>
+
+     <img hidden = {clickCount <=10} className="iknowkungfu" src="/iknowkungfu.gif" alt="neo trained"></img>
+
     </div>
     </main>
   );

@@ -1,3 +1,5 @@
+import { ReUsableButton } from "../component/utility"
+
 const ResourcesPage = () =>{
 
     
@@ -39,7 +41,7 @@ const ResourcesPage = () =>{
   </div>
   <br/>
   
-
+<ReUsableButton path="/" name="Go Back" className="center-button"/>
   
 
 
