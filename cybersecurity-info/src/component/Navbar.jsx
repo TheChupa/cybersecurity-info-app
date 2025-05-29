@@ -5,9 +5,17 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <Navbar sticky="top" data-bs-theme="" bg="myColorNavBar" expand="sm" className="bg-body-tertiary" >
+    <Navbar
+      sticky="top"
+      data-bs-theme=""
+      bg="myColorNavBar"
+      expand="sm"
+      className="bg-body-tertiary"
+    >
       <Container>
-        <Navbar.Brand as={Link} to="/" >Cyber Audit</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">
+          Cyber Audit
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
