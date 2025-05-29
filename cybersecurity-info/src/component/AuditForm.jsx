@@ -21,7 +21,7 @@ function ForAuditForm() {
   const handleNavigation = () => {
     setTimeout(() => {
       navigate("/Training-Room");
-    }, 1000);
+    }, 3000);
   };
   const [hideForm, setHideForm] = useState(false);
   const [hideButton, setHideButton] = useState(true);
@@ -55,7 +55,7 @@ function ForAuditForm() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
@@ -66,19 +66,19 @@ function ForAuditForm() {
                 name="username"
                 value={formData.username}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
             <label>
               Phone Number:
               <input
-                type="text"
+                type="number"
                 name="phonenumber"
                 value={formData.phonenumber}
                 onChange={handleChange}
                 maxLength={10}
-                //required
+                required
               />
             </label>
             <br />
@@ -89,7 +89,7 @@ function ForAuditForm() {
                 name="maidenName"
                 value={formData.maidenName}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
@@ -100,7 +100,7 @@ function ForAuditForm() {
                 name="petsName"
                 value={formData.petsname}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
@@ -111,7 +111,7 @@ function ForAuditForm() {
                 name="zodiac"
                 value={formData.zodiac}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
@@ -122,18 +122,18 @@ function ForAuditForm() {
                 name="mailing"
                 value={formData.mailing}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
             <label>
               Number of siblings:
               <input
-                type="text"
+                type="number"
                 name="siblings"
                 value={formData.siblings}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
@@ -144,7 +144,7 @@ function ForAuditForm() {
                 name="firstvehicle"
                 value={formData.firstvehicle}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
@@ -155,19 +155,18 @@ function ForAuditForm() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
             <label>
               Last 4 of SS#:
               <input
-                type="text"
+                type="number"
                 name="ss"
                 value={formData.ss}
                 onChange={handleChange}
-                maxLength={4}
-                //required
+                required
               />
             </label>
             <br />
@@ -178,7 +177,7 @@ function ForAuditForm() {
                 name="childhoodaddress"
                 value={formData.childhoodaddress}
                 onChange={handleChange}
-                //required
+                required
               />
             </label>
             <br />
@@ -189,7 +188,7 @@ function ForAuditForm() {
                 name="bestfriend"
                 value={formData.bestfriend}
                 onChange={handleChange}
-                //required
+                required
               />
               <br />
             </label>
@@ -198,7 +197,7 @@ function ForAuditForm() {
           </form>
         </div>
 
-        <div hidden={hideButton}>
+        <div className="table-div" hidden={hideButton}>
           <table border="1">
             <thead>
               <tr>

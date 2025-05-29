@@ -41,7 +41,7 @@ const ResourcesPage = () =>{
   </div>
   <br/>
   
-<ReUsableButton path="/" name="Go Back" className="center-button"/>
+<ReUsableButton path="/" name="Go Back" className="resources-button"/>
   
 
 

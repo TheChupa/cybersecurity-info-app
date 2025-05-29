@@ -46,6 +46,8 @@ const scamsList = scams.map((scam,index) => {
 
 
 </div>
+
+<br/>
 <img className="training-gif" src="/trainingdropdown.gif" alt="neo learning"></img>
 
 </main>

@@ -35,19 +35,27 @@
     ". . lead-to-buttons-homepage . ."
     ". blue-button-homepage . red-button-homepage ."
     ". . . . .";
+    border: 20px inset #188547;
 
 }
 
 .red-button-homepage {
   grid-area: red-button-homepage;
-
-  position: absolute;
+ position: absolute;
   right: 0;
   bottom: 5;
   align-self: end;
+  background-color:#cd081b;
+  padding: 25px 25px;
+  border-radius: 10px;
 }
 
 .blue-button-homepage {
+
+  background-color: #031fc0;
+  padding: 25px 25px;
+  border-radius: 10px;
+
   grid-area: blue-button-homepage;
   position: absolute;
   left: 0;
@@ -98,37 +106,26 @@
 /* About Me Page */
 
 .about-me {
-  
-  display: grid;
-  grid-template-columns: 1% 50% 1%;
-  grid-template-rows: 15% 70 15%;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  grid-template-areas:
-    ". text-about-me ."
-    ". form-about-me ."
-    ". closer-about-me .";
-  background-color:  lightblue;
-  background-size: contain;
-  
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+justify-content: flex-start; 
+border: 20px inset #188547; 
 }
-
 .text-about-me {
-  grid-area: text-about-me;
-
-  
+width: 100%; 
+margin: 0; 
 }
-
 .form-about-me {
-  grid-area: form-about-me;
- border: outset black;
- 
+width: 100%; 
+margin: 0; 
+}
+.closer-about-me {
+width: 100%; 
+margin: 0; 
 }
 
-.closer-about-me {
-  grid-area: closer-about-me;
-}
+
 
 .dog-photo {
   width: 200px;
@@ -147,6 +144,7 @@
   grid-template-areas:
     "title-resources title-resources"
     "wiki-resources serious-resources";
+border: 20px inset #188547;
 }
 
 .title-resources {
@@ -171,7 +169,19 @@
   border: 10px outset #2d7842;
   align-content: center;
   text-align: center;
+  align-items: center;
+}
+
+.resources-button{
+  background-color:#2d7842;
+  padding: 25px 25px;
+  border-radius: 10px;
   justify-content: center;
+
+}
+
+.resources-button:hover{
+  animation: flash-green .3s infinite;
 }
 
 .thank-you {
@@ -248,10 +258,18 @@
   justify-content: center;
   text-align: center;
   padding: 30px;
-  
+  background-image: url("../public/matrixship.jpg");
+  background-position: stretch;
+  background-size: cover;
+}
+.training-gif{
+  padding: 150px;
+  border: 20px inset #188547;
+  background-color: white;
 }
 .dropdown {
 border: 20px outset green;
+background-color: white;
 padding: 15px;
 }
 .info-card{
@@ -277,3 +295,37 @@ background-size: contain;
 .center-button {
   justify-content: center
 }
+
+.table-div{
+  border: 20px inset #188547;
+}
+
+
+/* hover effects for all buttons */
+
+@keyframes flash-green {
+  0%   { background-color: #2d7842; }
+  50%  { background-color: #4CAF50; } 
+  100% { background-color: #2d7842; }
+}
+
+@keyframes flash-red {
+  0%   { background-color: #cd081b; }
+  50%  { background-color: #f77d85; } 
+  100% { background-color:  #cd081b; }
+}
+
+@keyframes flash-blue {
+  0%   { background-color: #031fc0; }
+  50%  { background-color: #0f8192; } 
+  100% { background-color:  #031fc0; }
+}
+
+
+.blue-button-homepage:hover {
+  animation: flash-blue .3s infinite;
+}
+.red-button-homepage:hover{
+  animation: flash-red .3s infinite;
+}
+
