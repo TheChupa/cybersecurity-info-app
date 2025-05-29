@@ -25,10 +25,12 @@ const HomePage = () => {
         </div>
         <div className="lead-to-buttons-homepage">
           There is nothing to fear, but there are some things you should know.
-          Press the Either button. Each one will take you on a journey.
-          <br />
-          <br />
-          <br />
+          Press either button. Each one will take you on a journey.
+        <br/>
+        <br/>
+          I HIGHLY SUGGEST YOU TAKE THE JOURNEY ON THE RIGHT.
+          
+         
           <span className="blue-button-homepage">
             <ReUsableButton
               path="/resources/AllResources"
