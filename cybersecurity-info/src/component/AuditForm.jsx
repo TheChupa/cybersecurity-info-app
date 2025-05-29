@@ -55,7 +55,7 @@ function ForAuditForm() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -66,7 +66,7 @@ function ForAuditForm() {
                 name="username"
                 value={formData.username}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -78,7 +78,7 @@ function ForAuditForm() {
                 value={formData.phonenumber}
                 onChange={handleChange}
                 maxLength={10}
-                required
+                //required
               />
             </label>
             <br />
@@ -89,7 +89,7 @@ function ForAuditForm() {
                 name="maidenName"
                 value={formData.maidenName}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -100,7 +100,7 @@ function ForAuditForm() {
                 name="petsName"
                 value={formData.petsname}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -111,7 +111,7 @@ function ForAuditForm() {
                 name="zodiac"
                 value={formData.zodiac}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -122,7 +122,7 @@ function ForAuditForm() {
                 name="mailing"
                 value={formData.mailing}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -133,7 +133,7 @@ function ForAuditForm() {
                 name="siblings"
                 value={formData.siblings}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -144,7 +144,7 @@ function ForAuditForm() {
                 name="firstvehicle"
                 value={formData.firstvehicle}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -155,7 +155,7 @@ function ForAuditForm() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -167,7 +167,7 @@ function ForAuditForm() {
                 value={formData.ss}
                 onChange={handleChange}
                 maxLength={4}
-                required
+                //required
               />
             </label>
             <br />
@@ -178,7 +178,7 @@ function ForAuditForm() {
                 name="childhoodaddress"
                 value={formData.childhoodaddress}
                 onChange={handleChange}
-                required
+                //required
               />
             </label>
             <br />
@@ -189,7 +189,7 @@ function ForAuditForm() {
                 name="bestfriend"
                 value={formData.bestfriend}
                 onChange={handleChange}
-                required
+                //required
               />
               <br />
             </label>

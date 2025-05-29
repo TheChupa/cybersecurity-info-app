@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <main>
+    <main className="Footer">
     <Navbar bg="myColorFooter" data-bs-theme="light" fixed="bottom" expand="sm" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand>&copy;🐇</Navbar.Brand>

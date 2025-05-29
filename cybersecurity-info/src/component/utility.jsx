@@ -12,10 +12,10 @@ export const handleSubmit = (event) => {
 
 
 
-export const ReUsableButton = ({path , name, type= ""}) => {
+export const ReUsableButton = ({path , name, className= "" }) => {
 const navigate = useNavigate();
 return(
 
-  <button type={type} onClick={() => navigate(path)}>{name}</button>
+  <button className={className} onClick={() => navigate(path)}>{name}</button>
 )
 }

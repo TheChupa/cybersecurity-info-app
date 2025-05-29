@@ -16,9 +16,11 @@
 }
 
 
+
 /*HomePage*/
 
-.home-page {  display: grid;
+.home-page {
+  display: grid;
   grid-template-columns: 20px 1fr 2.4fr 1fr 20px;
   grid-template-rows: 80px 0.2fr 1.8fr 80px 2.2fr 0.3fr 80px;
   gap: 0px 0px;
@@ -34,65 +36,65 @@
     ". . . . .";
 }
 
-.red-button-homepage { grid-area: red-button-homepage;
+.red-button-homepage {
+  grid-area: red-button-homepage;
 
-
-position: absolute;
-right:    0;
-bottom:   5;
-align-self: end;
+  position: absolute;
+  right: 0;
+  bottom: 5;
+  align-self: end;
 }
 
-.blue-button-homepage { grid-area: blue-button-homepage;
-position: absolute;
-left:    0;
-bottom:   5;
-align-self: end; }
+.blue-button-homepage {
+  grid-area: blue-button-homepage;
+  position: absolute;
+  left: 0;
+  bottom: 5;
+  align-self: start;
+}
 
-.lead-to-buttons-homepage { grid-area: lead-to-buttons-homepage;
-border:  outset #2d7842;
-display: flex ;
- }
+.lead-to-buttons-homepage {
+  grid-area: lead-to-buttons-homepage;
+  border: outset #2d7842;
+  align-self: start; 
+}
 
-.intro-to-home { grid-area: intro-to-home; }
+.intro-to-home {
+  grid-area: intro-to-home;
+   border: outset #2d7842;
+  
+}
 
 /* Blinking Text */
 
 @keyframes blink {
-            0% {
-                opacity: 1;
-            }
+  0% {
+    opacity: 1;
+  }
 
-            50% {
-                opacity: 0;
-            }
+  50% {
+    opacity: 0;
+  }
 
-            100% {
-                opacity: 1;
-            }
-        }
+  100% {
+    opacity: 1;
+  }
+}
 
- .homepage-blink {
-            text-align: center;
-            margin-top: 20%;
-            font-size: 24px;
-            color: green;
-            animation: blink 1.5s infinite;
-        }
-
-
-
-
- 
-
-
+.homepage-blink {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 24px;
+  color: green;
+  animation: blink 1.5s infinite;
+}
 
 /* About Me Page */
 
 .about-me {
   display: grid;
-  grid-template-columns: 0.8fr 1.6fr 0.6fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 15% 50% 15%;
+  grid-template-rows: 15% 70 15%;
   gap: 0px 0px;
   grid-auto-flow: row;
   justify-content: center;
@@ -100,36 +102,35 @@ display: flex ;
     ". text-about-me ."
     ". form-about-me ."
     ". closer-about-me .";
+    background-color: #2d7842;
+  
 }
 
 .text-about-me {
- grid-area: text-about-me;
-align-content: center;
-text-align: center; 
-justify-content: center;
+  grid-area: text-about-me;
 
+  
 }
 
 .form-about-me {
   grid-area: form-about-me;
-  border: 10px outset #2d7842;
-  
+ 
+ 
 }
 
 .closer-about-me {
   grid-area: closer-about-me;
 }
 
-.dog-photo{
-width: 300px;
-  height: auto;
-
+.dog-photo {
+  width: 310px;
+  height: 310px;
 }
 
 /* Resources page */
 
-
-.resources-page {  display: grid;
+.resources-page {
+  display: grid;
   grid-template-columns: 1.3fr 1.4fr;
   grid-template-rows: 0.5fr 1.4fr;
   gap: 0px 0px;
@@ -139,35 +140,34 @@ width: 300px;
     "wiki-resources serious-resources";
 }
 
-.title-resources { 
-grid-area: title-resources;
-border: 10px outset #2d7842;
-display: flex ;
-align-content: center;
-text-align: center;
-justify-content: center;
- }
-
-.wiki-resources { 
- grid-area: wiki-resources;
-border: 10px outset #2d7842;
-align-content: center;
-text-align: center; 
-justify-content: center;
+.title-resources {
+  grid-area: title-resources;
+  border: 10px outset #2d7842;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.serious-resources { 
-  grid-area: serious-resources;
-   border: 10px outset #2d7842;
-   align-content: center;
-text-align: center;
+.wiki-resources {
+  grid-area: wiki-resources;
+  border: 10px outset #2d7842;
+  align-content: center;
+  text-align: center;
   justify-content: center;
- }
+}
 
+.serious-resources {
+  grid-area: serious-resources;
+  border: 10px outset #2d7842;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
 
- .thank-you{
-  background-image: url(../ThankYou.jpg) ;
- 
+.thank-you {
+  background-image: url(../ThankYou.jpg);
+
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,16 +178,73 @@ text-align: center;
   align-items: center;
   justify-content: center;
   color: white;
- }
+}
 
-
-
- /*Cyber Audit Landing*/
-.cyber-audit{
+/*Cyber Audit Landing*/
+.cyber-audit {
   display: flex;
-  justify-content: center; 
-  align-items: center;      
-  height: 100vh;            
-  text-align: center;       
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
   flex-direction: column;
 }
+
+/* Training Room and Scam info cards*/
+
+.info-card {
+  border: 5px black;
+}
+
+.scamtype {  display: grid;
+  grid-template-columns: 15% 0.9fr 15%;
+  grid-template-rows: 15% 1fr 1fr 5%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". scam-1 ."
+    ". button-box ."
+    ". . .";
+}
+
+.scam-1 {
+  grid-area: scam-1;
+  border: 10px outset #2d7842;
+  border: 10px outset #2d7842;
+  background-color: #000;   
+  color: #fff;              
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-box { 
+  grid-area: button-box;
+  border: 10px outset #2d7842;
+  display: flex;
+  align-items: flex;       
+  justify-content: top; 
+  text-align: center;
+  align-self: flex-start
+}
+
+
+
+.dojo{
+background-image: url(../dojobackground.jpg);
+opacity: 7;
+background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
