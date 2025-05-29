@@ -32,7 +32,7 @@ const TrainingProgram = () => {
       </span>
       <span className="scam-1" hidden={clickCount !== 2}>
         <ScamInfoBox
-          scamKey="These kids of data on you make this scam easier to accomplish:"
+          scamKey="This kind of data on you make this scam easier to accomplish:"
           writeUp={scam.dataPoints}
         />
       </span>

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function ForAuditForm() {
+
+  //form to take in data. updates as the user types into the form
   const [formData, setFormData] = useState({
     name: "",
     username: "",
@@ -17,6 +19,7 @@ function ForAuditForm() {
     mailing: "",
     phonenumber: "",
   });
+  //button that takes us from the audit to the training room. has a 3 second delay so users can stare at blinking text
   const navigate = useNavigate();
   const handleNavigation = () => {
     setTimeout(() => {

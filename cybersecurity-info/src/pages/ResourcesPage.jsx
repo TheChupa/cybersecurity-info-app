@@ -14,8 +14,8 @@ const ResourcesPage = () =>{
 <main className="resources-page">
 
   
-  <div className="title-resources">Resources</div>
-  <div className="wiki-resources">Wikipedia Links
+  <div className="title-resources"><h2>Resources</h2></div>
+  <div className="wiki-resources"><h2>Wikipedia Links</h2>
   <br/>
   <a href="https://en.wikipedia.org/wiki/Pig_butchering_scam" target="_blank">Pig Butchering</a><br/>
   <a href="https://en.wikipedia.org/wiki/Phishing" target="_blank">Phishing</a><br/>
@@ -29,7 +29,7 @@ const ResourcesPage = () =>{
   
   
   </div>
-  <div className="serious-resources">Serious Stuff
+  <div className="serious-resources"><h2>Serious Stuff</h2>
   <br/>
   <a href="https://www.youtube.com/watch?v=knhQ2f8anT8&t=18s" target="_blank">Kitboga Password Game</a><br/>
   <a href="https://duckduckgo.com/duckduckgo-help-pages/email-protection/duck-addresses" target="_blank">Email Masking</a><br/>
