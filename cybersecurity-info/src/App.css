@@ -103,11 +103,17 @@ display: flex ;
 }
 
 .text-about-me {
-  grid-area: text-about-me;
+ grid-area: text-about-me;
+align-content: center;
+text-align: center; 
+justify-content: center;
+
 }
 
 .form-about-me {
   grid-area: form-about-me;
+  border: 10px outset #2d7842;
+  
 }
 
 .closer-about-me {
@@ -127,13 +133,43 @@ display: flex ;
     "wiki-resources serious-resources";
 }
 
-.title-resources { grid-area: title-resources;
+.title-resources { 
+grid-area: title-resources;
 border: 10px outset #2d7842;
 display: flex ;
 align-content: center;
+text-align: center;
+justify-content: center;
  }
 
-.wiki-resources { grid-area: wiki-resources;
-border: 10px outset #2d7842; }
+.wiki-resources { 
+ grid-area: wiki-resources;
+border: 10px outset #2d7842;
+align-content: center;
+text-align: center; 
+justify-content: center;
+}
 
-.serious-resources { grid-area: serious-resources; border: 10px outset #2d7842; }
+.serious-resources { 
+  grid-area: serious-resources;
+   border: 10px outset #2d7842;
+   align-content: center;
+text-align: center;
+  justify-content: center;
+ }
+
+
+ .thank-you{
+  background-image: url(../public/ThankYou.jpg) ;
+ 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+ }

@@ -9,7 +9,6 @@ export const scamdata = {
       "Usually this type of attack is done over thousands of numbers, but it could be combined with other data points to create a more targeted attack. Anyone remember being bombarded with toll road texts after a recent travel?",
     howToDefend:
       "Having multiple numbers can greatly help protect you against becoming a victim. My personal go to, is to have a VoIP phone number for commercial purposes and then only give out my personal number to those I trust.",
-    resources: ["youtubelink", "other link", "etc"],
     details:
       "This is a kind of attack that is designed to trick the victim into sending money to the scammer. Can be extremely generic or hyper targeted. With the rise of AI, it is becoming easier to trick people....No one is safe.",
     kindOfCurious:
@@ -32,7 +31,6 @@ export const scamdata = {
       "Anyone with low internet literacy is a target. Not everyone will fall for the Nigerian Prince scam, but enough people do that it's still worth the risk and time..",
     howToDefend:
       "Email masking is the best way to defend against this attack. How does one attack what they cannot really see?",
-    moreResources: "",
     details:
       "Email scams are usually very transparent and avoidable...but they can be sophisticated and highly targeted.",
     kindOfCurious:
@@ -54,7 +52,6 @@ export const scamdata = {
     mainTargets: "Anyone with a computer and an internet connection",
     howToDefend:
       "Knowing how the banking system and communication system works, and being able to fix your own computer.",
-    moreResources: "",
     details:
       "Reverse refund scams are highly involved and usually take a long time to accomplish. The end goal is to get you to give them access to your bank account or to send money to them in another way.",
     kindOfCurious:
@@ -77,12 +74,11 @@ export const scamdata = {
       "Anyone that has a lot of data about them on the internet, and those that have a trusting attitude.",
     howToDefend:
       "Knowing how the world works. Education is the best weapon. Know that if you truly owe someone money, they will find an official way to collect",
-    moreResources: "",
     details:
       "Extortion scams are simple. The scammer will use common sense against their victim",
     kindOfCurious:
       "The scammer is smart and will convince their victim to send them payment as fast as possible to get this over with.",
-    moreDetailsOne: "",
+    moreDetailsOne: "They will keep you on the phone as long as they can. Their job is to confuse you and make you think you don't know what is going on.",
     wayTooManyDetails:
       "This is the scam that happens to many elderly people. AI is adding to the deceptiveness with voice, photo, and social media data to create custom fakery for this purpose.",
     theRealDarkness:
@@ -97,14 +93,13 @@ export const scamdata = {
       "Social Media, Shady Websites, Gov Website leaks, Collections, Credit Card applications, Sold as a target from another scam, Public employee records. ",
     mainTargets: "People that are desperate",
     howToDefend: "Never trust a deal that's too good to be true. Ever.",
-    moreResources: "",
     details:
       "This scam happens every day. As the CFPB has resrouces gutted from protecting the public, these scams will proliferate in our day-day in the U.S. instead of being something that happens in a place far away..",
     kindOfCurious:
       "It already happens to citizens around the globe every day. Buying stuff that doesn't exist.",
-    moreDetailsOne: "",
+    moreDetailsOne: "Be careful if you are paying for convience. Sometimes the product that already exists is the scam.",
     wayTooManyDetails: "It's here already.",
-    theRealDarkness: "Bruh.",
+    theRealDarkness: "Bruh. Stop wanting it to be so sad.",
   },
 
   attentionScamProgram: {
@@ -113,16 +108,15 @@ export const scamdata = {
       "Social media interaction that feeds algorithm behavior saved to your profile.",
     breachType: "No Breach...you signed up for this.",
     mainTargets: "All humans.",
-    howToDefend: "Make friends, Read books, ",
-    moreResources: "",
+    howToDefend: "Make friends, Read books",
     details:
       "Be careful of the content you view. Websites save an inordinate amount of data on their users that can be used to influence you in various ways.",
     kindOfCurious:
       "The track how long you you look, when you look, and sometimes even where you look.",
 
-    moreDetailsOne: "",
+    moreDetailsOne: "Although this kind of attack is still new, it is becoming more sophisticated by the day.",
     wayTooManyDetails:
       "This data is for sale is so many ways. Think of all the social media you use and then go check out their stock price. How are they making money?",
-    theRealDarkness: "It's dark.",
+    theRealDarkness: "It's dark....and we should all be are.",
   },
 };

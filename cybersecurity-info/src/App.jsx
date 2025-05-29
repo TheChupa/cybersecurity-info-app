@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./component/Footer.jsx";
 import CyberTraining from "./pages/CyberTraining.jsx";
 import TrainingProgram from "./pages/TrainingProgram.jsx";
+import ThankYouPage from "./pages/ThankYouPage.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/Training-Room" element={<CyberTraining />}/>
         <Route path="/Training-Room/:programName" element={<TrainingProgram/>}/>
+        <Route path="/Thank-you" element={<ThankYouPage/>}/>
         </Routes>
       <Footer />
       </BrowserRouter>

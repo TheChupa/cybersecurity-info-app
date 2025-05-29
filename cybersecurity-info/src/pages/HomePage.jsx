@@ -18,8 +18,8 @@ const HomePage = () => {
           Press the Either button. Each one will take you on a journey.<br/><br/><br/>
 
 
-           <span className="blue-button-homepage"><ReUsableButton  path="/resources/AllResources" name="Blue"/></span>
-       <span className="red-button-homepage"> <ReUsableButton path="/Audit" name="Red" /></span>
+           <span className="blue-button-homepage"><ReUsableButton  path="/resources/AllResources" name="Easy Journey"/></span>
+       <span className="red-button-homepage"> <ReUsableButton path="/Audit" name="Hard Journey" /></span>
          
          
          
