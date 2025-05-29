@@ -120,6 +120,12 @@ justify-content: center;
   grid-area: closer-about-me;
 }
 
+.dog-photo{
+width: 300px;
+  height: auto;
+
+}
+
 /* Resources page */
 
 
@@ -160,7 +166,7 @@ text-align: center;
 
 
  .thank-you{
-  background-image: url(../public/ThankYou.jpg) ;
+  background-image: url(../ThankYou.jpg) ;
  
   background-size: contain;
   background-position: center;
@@ -173,3 +179,15 @@ text-align: center;
   justify-content: center;
   color: white;
  }
+
+
+
+ /*Cyber Audit Landing*/
+.cyber-audit{
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  height: 100vh;            
+  text-align: center;       
+  flex-direction: column;
+}

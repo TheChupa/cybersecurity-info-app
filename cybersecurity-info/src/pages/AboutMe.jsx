@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import { ReUsableButton } from "../component/utility";
 
 const AboutMe = () => {
@@ -20,13 +21,16 @@ const AboutMe = () => {
     setFormData({ email: "", textbox: "" });
   };
 
+
   return (
     <main className="about-me">
       <div className="text-about-me">
         <h1>Hello!</h1>
         <h3>
-          Help me find things to make life better. Contact me if you have ideas.
+          Help me find things to make life better. Contact me if you have ideas. Hope you enjoy Dallas!
         </h3>
+
+        <img className="dog-photo" src="/dallas.jpg" alt="dog photo"></img>
       </div>
 
       <div className="form-about-me">
@@ -60,7 +64,7 @@ const AboutMe = () => {
           <br />
           <br />
 
-          <ReUsableButton path="/Thank-you" name="Submit" />
+          <ReUsableButton path="/Thank-you " name="submit" type="submit" />
         </form>
       </div>
 
