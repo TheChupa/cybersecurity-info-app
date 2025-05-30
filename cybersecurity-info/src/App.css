@@ -258,7 +258,7 @@ border: 20px inset #188547;
   justify-content: center;
   text-align: center;
   padding: 30px;
-  background-image: url("../public/matrixship.jpg");
+  background-image: url("../matrixship.jpg");
   background-position: stretch;
   background-size: cover;
 }

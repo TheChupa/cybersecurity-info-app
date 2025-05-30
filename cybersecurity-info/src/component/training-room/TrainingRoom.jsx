@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { scamdata } from "../component/dataforproject";
+import { scamdata } from "../../assets/dataforproject";
 import { useNavigate } from "react-router-dom";
 
 const CyberTraining = () => {
@@ -18,7 +18,7 @@ const CyberTraining = () => {
     }
   };
 
-//returns the list of scams I have into a dropdown. Then the select takes you to selected program.
+  //returns the list of scams I have into a dropdown. Then the select takes you to selected program.
 
   const scamsList = scams.map((scam, index) => {
     return (

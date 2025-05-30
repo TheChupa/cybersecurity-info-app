@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { ReUsableButton } from "../component/utility";
+import { ReUsableButton } from "../assets/utility";
 
 const AboutMe = () => {
   const [formData, setFormData] = useState({

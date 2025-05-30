@@ -1,4 +1,4 @@
-import ForAuditForm from "../component/AuditForm";
+import ForAuditForm from "./AuditForm";
 import { useState } from "react";
 
 const AuditForm = () => {

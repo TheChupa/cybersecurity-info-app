@@ -1,4 +1,4 @@
-import { ReUsableButton } from "../component/utility";
+import { ReUsableButton } from "../../assets/utility";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -26,11 +26,8 @@ const HomePage = () => {
         <div className="lead-to-buttons-homepage">
           There is nothing to fear, but there are some things you should know.
           Press either button. Each one will take you on a journey.
-        <br/>
-        <br/>
-          I HIGHLY SUGGEST YOU TAKE THE JOURNEY ON THE RIGHT.
-          
-         
+          <br />
+          <br />I HIGHLY SUGGEST YOU TAKE THE JOURNEY ON THE RIGHT.
           <span className="blue-button-homepage">
             <ReUsableButton
               path="/resources/AllResources"

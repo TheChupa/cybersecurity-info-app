@@ -1,12 +1,14 @@
 import { useParams } from "react-router-dom";
-import { scamdata } from "../component/dataforproject";
-import ScamInfoBox from "../component/ScamInfoBox";
+import { scamdata } from "../../assets/dataforproject";
+import ScamInfoBox from "./ScamInfoBox";
 import { useState } from "react";
-import { ReUsableButton } from "../component/utility";
+import { ReUsableButton } from "../../assets/utility";
 
 const TrainingProgram = () => {
   // takes in data from dropdown and takes use to here. Use button to increase ClickCount to reveal certain sections.
   const { programName } = useParams();
+
+  // scamdata
   const scam = scamdata[programName];
   const [clickCount, setClickCount] = useState(0);
   const handlePositiveClick = () => {

@@ -1,4 +1,4 @@
-import { ReUsableButton } from "../component/utility";
+import { ReUsableButton } from "../assets/utility";
 
 const ResourcesPage = () => {
   //todo:pass data into form and return it in nice organized blocks. Will expand infinetely(as i add more) for each type of safety, email safety/scams, address safety/scams, personal data(maidenname, pet, kind of car "quizzez") safety/scams.
