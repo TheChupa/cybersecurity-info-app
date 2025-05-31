@@ -85,7 +85,7 @@ const ResourcesPage = () => {
       </div>
       <br />
 
-      <ReUsableButton path="/" name="Go Back" className="resources-button" />
+      <ReUsableButton path="/" name="Click to go back, but you will have to change your name." className="resources-button" />
     </main>
   );
 };
