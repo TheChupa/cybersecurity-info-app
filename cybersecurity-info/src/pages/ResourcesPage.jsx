@@ -82,6 +82,34 @@ const ResourcesPage = () => {
           How They get your data
         </a>
         <br />
+        <a
+          href="https://haveibeenpwned.com/"
+          target="_blank"
+        >
+          Have I been Pwned?
+        </a>
+        <br/>
+        <a
+          href="https://databreach.com/"
+          target="_blank"
+        >
+          Data Breach Check
+        </a>
+        <br />
+        <a
+          href="https://bitwarden.com/products/personal/"
+          target="_blank"
+        >
+          Best Password Manager
+        </a>
+        <br />
+        <a
+          href="https://www.thewindowsclub.com/how-to-use-windows-security-on-windows-11"
+          target="_blank"
+        >
+          Easiest Computer Safety Solution
+        </a>
+        <br />
       </div>
       <br />
 

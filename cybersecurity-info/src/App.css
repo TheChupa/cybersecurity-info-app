@@ -103,6 +103,56 @@
   animation: blink 2.0s infinite;
 }
 
+
+.blue-button-homepage:hover {
+  animation: flash-blue .3s infinite;
+}
+.red-button-homepage:hover{
+  animation: flash-red .3s infinite;
+}
+
+.welcome-button{
+
+   background-color:#2d7842;
+  padding: 25px 25px;
+  border-radius: 10px;
+  justify-content: center;
+
+}
+.welcome-button:hover {
+  animation: flash-green .5s infinite;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color:green(0, 0, 0, 0.4); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; 
+}
+.username-box {
+  background: white;
+  width: 100vw;
+  height:100vh;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 /* About Me Page */
 
 .about-me {
@@ -322,49 +372,5 @@ background-size: contain;
 }
 
 
-.blue-button-homepage:hover {
-  animation: flash-blue .3s infinite;
-}
-.red-button-homepage:hover{
-  animation: flash-red .3s infinite;
-}
-
-.welcome-button{
-
-   background-color:#2d7842;
-  padding: 25px 25px;
-  border-radius: 10px;
-  justify-content: center;
-
-}
-.welcome-button:hover {
-  animation: flash-green .5s infinite;
-}
-
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color:green(0, 0, 0, 0.4); 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999; 
-}
-.username-box {
-  background: white;
-  width: 20vw;
-  height:20vh;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 
