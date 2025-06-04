@@ -13,7 +13,6 @@ const TrainingProgram = () => {
   const [clickCount, setClickCount] = useState(0);
   const handlePositiveClick = () => {
     setClickCount((prev) => prev + 1);
-    console.log(clickCount);
   };
   const handleNegativeClick = () => {
     setClickCount((prev) => prev - 1);
